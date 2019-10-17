@@ -4,11 +4,17 @@
     box-sizing: border-box;
 }
 
+.vuoto{
+    height: 72.53px;
+    width: 100%;
+}
+
 .top{
     height: 72.53px;
     width: 100%;
     background-color: #F5F8FA;
     border-bottom: 1px solid #CBD6E2;
+    position: fixed;
 }
 
 .center_top{
@@ -27,14 +33,14 @@
 
 }
 
-.left ol{
+.center_top .left ol{
     position: absolute;
     top:36%;
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
 }
 
-.left ol li{
+.center_top .left ol li{
     display: inline-block;
     float: left;
     margin-right: 5px;
@@ -47,7 +53,6 @@
     width: 50%;
     height:100%;
 }
-
 
 .globo {
     display: inline-block;
@@ -120,4 +125,61 @@
     position: relative;
     top: 10px;
     color: #438696;
+}
+
+
+
+.menu {
+    height: 81.6px;
+    width: 100%;
+}
+
+.sezione_menu {
+    background-color: white;
+    margin:auto;
+    width: 80%;
+    height: 100%;
+    position:relative;
+}
+
+#allinea_logo {
+    position: absolute;
+    top: calc((100% - 30px) / 2);
+
+}
+
+.second_left{
+    width:30%;
+}
+
+.second_right{
+    width:70%;
+}
+
+
+.list_menu{
+    width: 100%;
+    list-style-type: none;
+    font-size: 16px;
+    position: absolute;
+    top: calc(( 100% - 22.4px ) / 2);
+    padding-right: 92px;
+    font-family: 'Mukta', sans-serif;
+    color: #33475B;
+}
+
+.arrow_menu{
+    position: relative;
+    top: -1px;
+    margin-left:11px;
+    font-size: 17px;
+    color: #7C98B6;
+}
+
+.list_menu li{
+    float: right;
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-left: 20px;
+    padding-right: 8px;
 }
