@@ -15,9 +15,10 @@
     background-color: #F5F8FA;
     border-bottom: 1px solid #CBD6E2;
     position: fixed;
+    z-index: 5;
 }
 
-.center_top{
+.center{
     margin: auto;
     width: 80%;
     height: 100%;
@@ -33,14 +34,14 @@
 
 }
 
-.center_top .left ol{
+.center .left ol{
     position: absolute;
     top:36%;
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
 }
 
-.center_top .left ol li{
+.center .left ol li{
     display: inline-block;
     float: left;
     margin-right: 5px;
@@ -128,7 +129,9 @@
 }
 
 
-
+.list_menu .allineati h4{
+    display: inline-block;
+}
 .menu {
     height: 81.6px;
     width: 100%;
@@ -136,10 +139,6 @@
 
 .sezione_menu {
     background-color: white;
-    margin:auto;
-    width: 80%;
-    height: 100%;
-    position:relative;
 }
 
 #allinea_logo {
@@ -178,8 +177,73 @@
 
 .list_menu li{
     float: right;
-    margin-left: 1px;
     margin-right: 1px;
     margin-left: 20px;
     padding-right: 8px;
+}
+
+.jumbo {
+    width:100vw;
+    height: 90vh;
+    background-color: #FFF2EE;
+    position: relative;
+
+}
+
+.jumbo_center {
+    padding:0 4rem;
+}
+
+main{
+    max-width: 430px;
+    position: relative;
+    top: 100px;
+    /*font-family: 'Poppins', sans-serif;*/
+    font-family: 'Rubik', sans-serif;
+    text-align: left;
+    z-index: 2;
+
+
+}
+
+main h1{
+    font-size: 3.438rem;
+    line-height: 1.1818;
+
+}
+
+main p{
+    font-size: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    line-height: 2;
+}
+
+.button_get{
+    color:#fff;
+    background-color: #FF7A59;
+    width: 226.19px;
+    height: 72px;
+    border:0;
+    border-radius: 4px;
+}
+
+.piccolo{
+    text-align: left;
+    max-width: 14rem;
+    margin-left: 0;
+    font-weight: 500;
+    color: #33475b;
+    font-size: 0.75rem;
+    line-height: 1.5;
+    margin: 2em 0;
+
+}
+
+img{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    right:0;
+
 }
