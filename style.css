@@ -9,6 +9,12 @@ body {
     overflow-x: hidden;
 }
 
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 .vuoto{
     height: 72.53px;
     width: 100%;
@@ -338,4 +344,129 @@ main p{
     top: -58%;
     font-weight: bolder;
     border-radius: 5%;
+}
+
+
+.div_caselle {
+    background-color: #F5F8FA;
+}
+
+
+#casella1 {
+    border-radius: 5px;
+    margin:auto;
+    width: 80%;
+    height: 298.8px;
+    background-color: white;
+    box-shadow: 0px 0px 1px;
+    padding: 32px;
+    position: relative;
+
+}
+
+.img1 {
+    width: 25%;
+    height: 100%;
+    position: relative;
+    text-align: center;
+    margin: 0 80.637px;
+}
+.img1 img{
+    width: 100%;
+    height: 150px;
+
+}
+
+.container_3_caselle{
+    background-color: #F5F8FA;
+    width: 100%;
+    margin:auto;
+    width: 80%;
+    padding-top: 4%;
+}
+
+.tre {
+    float: left;
+    background-color: white;
+    width: 31%;
+    height: 600.69px;
+    box-shadow: 0px 0px 1px;
+    margin-right: 3.501%;
+    border-radius: 5px;
+}
+
+#casella4{
+    margin-right: 0;
+}
+
+.learn{
+    position: absolute;
+    top: 65%;
+    right: 50%;
+    transform: translate( 50% , 50% );
+    background-color: #FF7A59;
+    height: 40.8px;
+    width: 121.78px;
+    border-radius: 5px;
+}
+
+.learn a{
+    position: relative;
+    top: 22%;
+    color: white;
+    text-decoration: none;
+
+}
+
+.sezione2_cas1 {
+    position: absolute;
+    width: 50%;
+    left: 45%;
+    bottom:15%;
+}
+
+.sezione2_cas1 h1{
+    margin-bottom: 5%;
+    color:#445873;
+}
+
+.sezione2_cas1 p{
+    line-height: 2;
+    font-weight: 200;
+    display: inline-block;
+    color: :#445873;
+    margin-bottom: 4%;
+}
+
+.sezione2_cas1 strong{
+            margin:2% 0;
+}
+.riga{
+    position: relative;
+    display: inline-block;
+    width: 350px;
+    height: 1px;
+    background-color: #DFFFED;
+    vertical-align: middle;
+    margin:2% 0;
+}
+
+.sezione2_cas1 ol {
+    float:left;
+    display: inline-block;
+    padding: 2px;
+    margin: 10px;
+
+}
+
+.sezione2_cas1 ol li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 5px;
+
+}
+
+.sezione2_cas1 ol li i{
+    color: #FF7A59;
+
 }
