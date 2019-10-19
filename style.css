@@ -479,3 +479,72 @@ main p{
     margin-right: 14px;
     color: #6E7C8B;
 }
+
+#casella2 {
+    padding: 5% 3%;
+    text-align: center;
+}
+
+.foto_marketing {
+    height: 150px;
+    width: 100%;
+}
+
+#casella2 h1 {
+    margin-top: 5%;
+    color: #33475B;
+}
+
+#p_marketing{
+    text-align: left;
+    margin-top: 8%;
+    line-height: 1.5;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #33475B;
+    border-bottom: 1px solid #e0e6ed;
+    padding-bottom: 2em;
+}
+
+#pop_features{
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 15px;
+    margin-top: 2em;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    font-size: 13px;
+    text-align: center;
+    color: #475A6C;
+}
+
+#casella2 ul li{
+    text-align: left;
+    list-style-type: none;
+    font-size: 13px;
+    margin-bottom: 5%;
+}
+
+#casella2 i {
+    color: #FF7A59;
+    margin-right: 20px;
+    font-size: 16px;
+}
+
+.learn_more{
+    position: relative;
+    left:20%;
+    top:5%;
+    background-color: #FF7A59;
+    height: 40.8px;
+    width: 121.78px;
+    border-radius: 5px;
+}
+
+.learn_more a{
+    position: relative;
+    top: 22%;
+    color: white;
+    text-decoration: none;
+}
