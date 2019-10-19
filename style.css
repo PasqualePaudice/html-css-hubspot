@@ -422,7 +422,7 @@ main p{
     position: absolute;
     width: 50%;
     left: 45%;
-    bottom:15%;
+    top: calc((100% - 174.1px ) / 2 );
 }
 
 .sezione2_cas1 h1{
@@ -431,7 +431,7 @@ main p{
 }
 
 .sezione2_cas1 p{
-    line-height: 2;
+    line-height: 1.5;
     font-weight: 200;
     display: inline-block;
     color: :#445873;
@@ -439,7 +439,8 @@ main p{
 }
 
 .sezione2_cas1 strong{
-            margin:2% 0;
+        margin:2% 0;
+        color: #5E6E7D;
 }
 .riga{
     position: relative;
@@ -454,12 +455,14 @@ main p{
 .sezione2_cas1 ol {
     float:left;
     display: inline-block;
-    padding: 2px;
-    margin: 10px;
+    padding: 2px 2px 2px 0;
+    font-size: 12px;
+    margin-top: 1%;
 
 }
 
 .sezione2_cas1 ol li{
+    float: left;
     list-style-type: none;
     display: inline-block;
     margin-right: 5px;
@@ -468,5 +471,11 @@ main p{
 
 .sezione2_cas1 ol li i{
     color: #FF7A59;
+    font-size: 14px;
+    margin-right: 10px;
+}
 
+.sezione2_cas1 ol li p{
+    margin-right: 14px;
+    color: #6E7C8B;
 }
