@@ -321,10 +321,11 @@ main p{
 
 .nuova_sezione div p{
     float: left;
-    /*top: calc( ( 100% - 18.4px ) / 2);
-    letter-spacing: 0.5px;*/
+    /*top: calc( ( 100% - 18.4px ) / 2);*/
+    letter-spacing: 0.5px;
     display: inline;
     margin-right: 1%;
+    margin-top: -0.5%;
 }
 
 .nuova_sezione div span{
@@ -349,6 +350,10 @@ main p{
 
 .div_caselle {
     background-color: #F5F8FA;
+}
+
+.caselle{
+    padding-bottom: 10%;
 }
 
 
@@ -557,4 +562,37 @@ main p{
     top: 22%;
     color: white;
     text-decoration: none;
+}
+
+.sezione_sfumata {
+    width: 100%;
+    background-image: linear-gradient(to right, #00A8B8 , #00B8AA);
+}
+
+.uno_sfumata {
+    color: white;
+    text-align: center;
+    padding:10% 20% 5%;
+
+
+}
+
+.uno_sfumata span{
+
+    font-weight: 900;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+
+
+}
+
+p {
+    margin-top: 2%;
+    line-height: 30px;
+}
+
+.due_sfumata {
+        border: 1px solid black;
+        height: 100px;
 }
